@@ -73,10 +73,10 @@ public class TransferService {
         LocalDate currentDate = LocalDate.now();
         LocalDate transferLocalDate = transferDate.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
 
-        long dias = Math.abs(ChronoUnit.DAYS.between(currentDate, transferLocalDate));
+        long days = Math.abs(ChronoUnit.DAYS.between(currentDate, transferLocalDate));
 
         int index = 0;
-        while (index < DAYS_RANGES.length && dias > DAYS_RANGES[index]) {
+        while (index < DAYS_RANGES.length && days > DAYS_RANGES[index]) {
             index++;
         }
 
