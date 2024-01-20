@@ -18,7 +18,7 @@ O Transf Scheduler é um projeto de exemplo para agendamento de transferências,
 - Axios
 
 ### Docker
-- Docker compose
+- Docker Compose
   
 ## Executando o Projeto com Docker
 
