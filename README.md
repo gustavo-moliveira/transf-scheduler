@@ -23,7 +23,7 @@ Certifique-se de ter o Docker instalado na sua máquina.
 
 Clone este repositório:
 ```
-git clone [https://github.com/seu-usuario/transf-scheduler.git](https://github.com/gustavo-moliveira/transf-scheduler.git)https://github.com/gustavo-moliveira/transf-scheduler.git
+git clone https://github.com/gustavo-moliveira/transf-scheduler.git
 ```
 ```
 cd transf-scheduler
