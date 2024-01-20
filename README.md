@@ -22,11 +22,13 @@ O Transf Scheduler é um projeto de exemplo para agendamento de transferências,
 Certifique-se de ter o Docker instalado na sua máquina.
 
 Clone este repositório:
-```bash
+```
 git clone [https://github.com/seu-usuario/transf-scheduler.git](https://github.com/gustavo-moliveira/transf-scheduler.git)https://github.com/gustavo-moliveira/transf-scheduler.git
-
+```
+```
 cd transf-scheduler
-
+```
+```
 docker-compose up
 ```
 
