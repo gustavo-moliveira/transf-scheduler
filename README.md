@@ -1,4 +1,4 @@
-# transf-scheduler
+# TRANSF SCHEDULER
 
 O Transf Scheduler é um projeto de exemplo para agendamento de transferências, desenvolvido em Java com Spring Boot para o backend e Vue.js para o frontend.
 
