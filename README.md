@@ -17,6 +17,9 @@ O Transf Scheduler é um projeto de exemplo para agendamento de transferências,
 - Vue.js
 - Axios
 
+### Docker
+- Docker compose
+  
 ## Executando o Projeto com Docker
 
 Certifique-se de ter o Docker instalado na sua máquina.
