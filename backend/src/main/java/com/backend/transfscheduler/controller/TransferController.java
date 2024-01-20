@@ -4,7 +4,6 @@ import com.backend.transfscheduler.error.TransferValidationException;
 import com.backend.transfscheduler.model.Transfer;
 import com.backend.transfscheduler.service.TransferService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -32,8 +31,6 @@ public class TransferController {
             return ResponseEntity.ok(savedTransfer);
         } catch (TransferValidationException e) {
             return ResponseEntity.status(e.getStatus()).body(e.getMessage());
-        } catch (Exception e) {
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Erro interno no servidor.");
         }
     }
 

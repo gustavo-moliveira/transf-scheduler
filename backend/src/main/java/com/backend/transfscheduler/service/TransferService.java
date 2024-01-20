@@ -85,7 +85,7 @@ public class TransferService {
             logger.info("Calculated fee: {}", fee);
             return fee;
         } else {
-            throw new RuntimeException("Não há taxa aplicável para esta transferência.");
+            throw new TransferValidationException("Não há taxa aplicável para esta transferência.", HttpStatus.BAD_REQUEST);
         }
     }
 }
